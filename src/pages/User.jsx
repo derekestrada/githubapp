@@ -14,7 +14,7 @@ function Users() {
     useEffect(() => {
       getUser(params.login)
       getUserRepos(params.login)
-    }, [])
+    })
 
     const {
       name,
